@@ -1,0 +1,28 @@
+.nav-links {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  font-size: larger;
+  padding: 0 20px;
+}
+
+.nav-links > div {
+  display: flex;
+  align-items: center; 
+}
+
+.nav-links a {
+  margin-right: 14px; 
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+
+}
+
+.nav-links a:hover {
+color: rgb(138, 136, 136);
+transition: color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-links .right-links {
+  margin-left: auto; 
+}
