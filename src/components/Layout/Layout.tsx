@@ -1,8 +1,8 @@
 import React from 'react';
+import { Flex } from '@chakra-ui/react';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Container from '../Container';
-import '../Layout/Layout.css';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -10,13 +10,11 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
-    <div className="layout">
+    <Flex direction="column" minHeight="100vh">
       <Header />
-      <Container>
-        {children}
-      </Container>
-      <Footer title={'© 2024 Ekaterina Mirlenko'} />
-    </div>
+      <Container>{children}</Container>
+      <Footer title="© 2024 Ekaterina Mirlenko" />
+    </Flex>
   );
 }
 

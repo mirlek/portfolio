@@ -1,6 +1,6 @@
 import React from 'react';
+import { Box, Heading, Stack } from '@chakra-ui/react';
 import Navigation from '../Navigation/Navigation';
-import '../Footer/Footer.css'
 
 interface FooterProps {
   title: string;
@@ -8,10 +8,23 @@ interface FooterProps {
 
 const Footer: React.FC<FooterProps> = ({ title }) => {
   return (
-    <div className="footer">
-      <h3>{title}</h3>
+    <Box 
+      as="footer" 
+      display="flex" 
+      alignItems="center" 
+      justifyContent="space-between" 
+      p={4} 
+      borderTop="1px solid" 
+      borderColor="gray.200"
+      width="100%"
+      position="relative"
+      bottom="0"
+    >
+      <Heading as="h3" size="md" margin={0}>
+        {title}
+      </Heading>
       <Navigation />
-    </div>
+    </Box>
   );
 }
 
