@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Heading, Stack } from '@chakra-ui/react';
-import Navigation from '../Navigation/Navigation';
+import Navigation from './Navigation';
 
 interface FooterProps {
   title: string;

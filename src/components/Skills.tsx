@@ -31,7 +31,7 @@ const skills: Skill[] = [
 const Skills: React.FC = () => {
   return (
     <Box p={4}>
-      <Text fontSize="2xl" mb={6} fontWeight="bold" textAlign="center">Hard Skills</Text>
+      <Text fontSize="2xl" mb={6} mt={10} fontWeight="bold" textAlign="center">Hard Skills</Text>
       <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }} spacing={4} mb={8}>
         {skills.slice(0, 4).map(({ icon: Icon, label, description }, index) => (
           <Box key={index} p={4} borderWidth={1} borderRadius="md" bg="white" boxShadow="md">

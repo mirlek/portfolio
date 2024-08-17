@@ -2,12 +2,13 @@ import React from 'react';
 import { Box, Card, CardBody, Heading, Stack, Text, Image, Flex } from '@chakra-ui/react';
 import me from '../assets/me_circle.png'
 import Skills from '../components/Skills';
-import Education from '../components/Education';
+import ProjectsCarousel from '../components/ProjectsCarousel';
+import CrossRoad from '../components/CrossRoad';
 
 const HomePage: React.FC = () => {
   return (
     <>
-      <Box textAlign="center" mt={10} mb={10}>
+      <Box textAlign="center" mt={4} mb={2}>
         <Card
           direction={{ base: 'column', sm: 'row' }}
           overflow='hidden'
@@ -47,7 +48,9 @@ const HomePage: React.FC = () => {
           </Flex>
         </Card>
       </Box>
+      <CrossRoad />
       <Skills />
+      <ProjectsCarousel />
     </>
   );
 };

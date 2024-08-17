@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Button, Image, useBreakpointValue, useDisclosure, Drawer, DrawerBody, DrawerContent, DrawerHeader, DrawerOverlay, VStack, Link } from '@chakra-ui/react';
-import Navigation from '../Navigation/Navigation';
-import logo from '../../assets/logo.png';
+import Navigation from './Navigation';
+import logo from '../assets/logo.png';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
