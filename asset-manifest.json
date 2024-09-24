@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/portfolio/static/js/main.bab32068.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/restaurant.png": "/portfolio/static/media/restaurant.17de3d997597d50d4422.png",
+    "static/media/astana.png": "/portfolio/static/media/astana.79091748d04396da74ed.png",
+    "static/media/me_circle.png": "/portfolio/static/media/me_circle.1cc119afe3c863a792f1.png",
+    "static/media/crowsfunding.png": "/portfolio/static/media/crowsfunding.5ca21ed79fbc39fe2b4d.png",
+    "static/media/dachnik_logo.png": "/portfolio/static/media/dachnik_logo.6be424ede6b94ece6bdd.png",
+    "static/media/lian.png": "/portfolio/static/media/lian.c3901af80b16467bf5c6.png",
+    "static/media/eOSI_logo.png": "/portfolio/static/media/eOSI_logo.5ee0ca89d75420f0473a.png",
+    "static/media/crypto.png": "/portfolio/static/media/crypto.3f11b69cd798f0ea9afe.png",
+    "static/media/crud.png": "/portfolio/static/media/crud.fcabe2ed8e74765fd5eb.png",
+    "static/media/rm_logo.png": "/portfolio/static/media/rm_logo.070cf87465d2e0fb9aba.png",
+    "index.html": "/portfolio/index.html",
+    "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
+    "main.bab32068.js.map": "/portfolio/static/js/main.bab32068.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.bab32068.js"
+  ]
+}
