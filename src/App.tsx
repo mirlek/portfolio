@@ -7,7 +7,7 @@ import Layout from './components/Layout';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <Layout>
         <Routes>
           <Route path="/" element={<HomePage />} />
