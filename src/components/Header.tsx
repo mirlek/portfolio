@@ -54,7 +54,7 @@ const Header: React.FC = () => {
                     <Link href="/projects" _hover={{ textDecoration: 'none' }}>
                       <Button variant="link" colorScheme="black" size="lg">Projects</Button>
                     </Link>
-                    <Link href="/Ekaterina Mirlenko CV.pdf" download _hover={{ textDecoration: 'none' }}>
+                    <Link href="/src/assets/Ekaterina Mirlenko CV.pdf" download _hover={{ textDecoration: 'none' }}>
                       <Button variant="link" colorScheme="black" size="lg">Download CV</Button>
                     </Link>
                     <Link href="https://www.linkedin.com/in/ekaterinamirlenko/" target="_blank" rel="noopener noreferrer" _hover={{ textDecoration: 'none' }}>
